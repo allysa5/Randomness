@@ -7,10 +7,10 @@ public class RandomGenerator {
 		Random rand = new Random();
 
 
-		for (int i = 1; i <= 12; ++i){
+		for (int i = 5; i <= 10; ++i){
 
 		}
-		int randomInt = 0 + rand.nextInt(6);
+		int randomInt = 1 + rand.nextInt(95);
 		output("Generated number: " + randomInt);
 
 	
